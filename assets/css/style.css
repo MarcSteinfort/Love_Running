@@ -186,7 +186,33 @@ padding: 0 20px;
 
 }
 /*Sign up*/
+signup.html main{
+flex: 1 0 auto;
+display: flex;
+flex-direction:column;
+margin-top: 47px;
 
+}
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#signup-form {
+    color:#ffffff;
+    background-color: rgba(60,60,60,.6);
+    padding: 30px;
+}
+#signup-form>h2{
+    color:#fafafa;
+    margin-bottom: 20px;
+}
+.text-input{
+    
+}
 
 /*Footer*/
 #social-networks {
